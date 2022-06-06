@@ -1,0 +1,5 @@
+# Machfiles
+
+## Requirements
+
+stow, git
