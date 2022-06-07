@@ -70,6 +70,9 @@ ZSH_THEME="random"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+ZSH_TMUX_CONFIG=$HOME/.config/tmux/tmux.conf
+
+
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions colored-man-pages tmux docker brew z)
 
 source $ZSH/oh-my-zsh.sh
