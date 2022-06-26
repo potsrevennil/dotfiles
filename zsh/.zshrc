@@ -102,6 +102,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# git log tags and commit message in pretty format
+alias glgt="git log --no-walk --tags --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\' --decorate=full"
+
+#
+alias v="nvim"
 
 export PNPM_HOME="/Users/thing-hanlim/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
