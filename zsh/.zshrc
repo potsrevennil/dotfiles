@@ -121,3 +121,7 @@ eval "$(pyenv init -)"
 
 # haskell
 [ -f "/Users/thing-hanlim/.ghcup/env" ] && source "/Users/thing-hanlim/.ghcup/env" # ghcup-env
+
+# go
+export GOPATH=~/go
+export PATH=$PATH:$HOME/go/bin:/opt/homebrew/bin
