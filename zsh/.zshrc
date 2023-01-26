@@ -106,8 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # git log tags and commit message in pretty format
 alias glgt="git log --no-walk --tags --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\' --decorate=full"
 
-#
+# nvim
 alias v="nvim"
+alias 'sudo v'="sudo nvim"
 
 export PNPM_HOME="/Users/thing-hanlim/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
