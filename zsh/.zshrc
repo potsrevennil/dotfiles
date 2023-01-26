@@ -111,7 +111,7 @@ alias v="nvim"
 alias 'sudo v'="sudo nvim"
 
 export PNPM_HOME="/Users/thing-hanlim/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
+export PATH="$PATH:$PNPM_HOME"
 
 # pyenv
 export PATH="$PATH:$(pyenv root)/shims"
