@@ -74,7 +74,7 @@ ZSH_THEME="random"
 ZSH_TMUX_CONFIG=$HOME/.config/tmux/tmux.conf
 
 
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions colored-man-pages tmux docker brew z)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions colored-man-pages tmux docker brew poetry)
 
 source $ZSH/oh-my-zsh.sh
 
