@@ -119,4 +119,5 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# haskell
 [ -f "/Users/thing-hanlim/.ghcup/env" ] && source "/Users/thing-hanlim/.ghcup/env" # ghcup-env
