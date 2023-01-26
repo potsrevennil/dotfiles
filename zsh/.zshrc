@@ -113,9 +113,10 @@ alias 'sudo v'="sudo nvim"
 export PNPM_HOME="/Users/thing-hanlim/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
-# Created by `pipx` on 2022-03-12 08:45:10
-export PATH="$PATH:/Users/thing-hanlim/.local/bin"
-export PATH="$PATH:/Library/Java/JavaVirtualMachines/graalvm-ce-java17-22.1.0/Contents/Home/bin"
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/graalvm-ce-java17-22.1.0/Contents/Home
+# pyenv
+export PATH="$PATH:$(pyenv root)/shims"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 [ -f "/Users/thing-hanlim/.ghcup/env" ] && source "/Users/thing-hanlim/.ghcup/env" # ghcup-env
